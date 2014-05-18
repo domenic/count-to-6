@@ -21,7 +21,9 @@
   },
   "dependencies": {
     "workshopper": "^1.0.0-alpha07",
-    "workshopper-exercise": "^0.2.3"
+    "workshopper-exercise": "^0.2.3",
+    "traceur": "0.0.41",
+    "q": "^1.0.1"
   },
   "devDependencies": {
     "jshint": "^2.5.1"
