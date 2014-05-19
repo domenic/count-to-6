@@ -56,3 +56,5 @@ function html(/* what goes here? */) {
 ```
 
 If you're not sure where to start, maybe try `console.log`ing the arguments to your `html` function.
+
+Finally, feel free to use rest parameters if you think that would make things easier!
