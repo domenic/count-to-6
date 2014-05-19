@@ -2,5 +2,6 @@
     "HELLO ES6",
     "TEMPLATE STRINGS",
     "TAGGED TEMPLATE STRINGS",
-    "SPREAD"
+    "SPREAD",
+    "REST"
 ]
