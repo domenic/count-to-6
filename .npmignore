@@ -2,4 +2,5 @@
 /npm-debug.log
 
 /.jshintrc
+/.jshintignore
 /.npmignore

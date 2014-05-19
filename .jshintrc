@@ -16,5 +16,6 @@
     "trailing": true,
     "undef": true,
     "unused": true,
+    "validthis": true,
     "white": true
 }
