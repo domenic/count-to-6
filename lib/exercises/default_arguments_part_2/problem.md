@@ -23,7 +23,7 @@ assertEquals5(3); // "3 does not equal 5!"
 
 ---
 
-For this exercise, you should write a function that will make a string really important, by adding a bunch of exclamation marks after it. The exact number of exclamation marks should be configurable, but by default, it should be equal to the length of the string. So:
+For this exercise, you should write a Node module whose default export is a function that will make a string really important. It should do this by adding a bunch of exclamation marks after it. The exact number of exclamation marks should be configurable, but by default, it should be equal to the length of the string. So:
 
 ```js
 makeImportant("Hi", 5); // "Hi!!!!!"
