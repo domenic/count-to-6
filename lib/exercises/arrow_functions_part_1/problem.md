@@ -40,5 +40,5 @@ So an input of `["Hello", "arrow", "functions"]` would become `"Haf"`.
 To show your work, you should output the transformation to the console. The above example would be:
 
 ```
-["Hello", "arrow", "functions"] becomes "Haf"
+[Hello,arrow,functions] becomes "Haf"
 ```
