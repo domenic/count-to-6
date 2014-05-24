@@ -9,7 +9,7 @@ log("Hello");                       // "Hello"
 log("Hello", y => y.toUpperCase()); // "HELLO"
 ```
 
-In this example we used as our default transformation the identity function, `x => x`.
+In this example, the default value for the `transform` argument is the identity function, `x => x`.
 
 Default argument values can even depend on earlier arguments:
 
