@@ -44,6 +44,12 @@ If you don't remember the corresponding escape sequences, they are:
 & | &amp;
 ```
 
+Remember that the best way to do string replacement in JavaScript is with regular expressions, e.g.
+
+```js
+var replacedS = originalS.replace(/a/g, "b");
+```
+
 The outline of your program should look something like this:
 
 ```js
