@@ -29,7 +29,7 @@ sayHello(null, 0); // "null 0!"
 
 ---
 
-As in the rest parameters exercise, your goal is to write a Node module whose default export is a function. This time it will take two arguments: a lower bound and an upper bound. Your function should the midpoint between those two bounds.
+As in the rest parameters exercise, your goal is to write a Node module whose default export is a function. This time it will take two arguments: a lower bound and an upper bound. Your function should return the midpoint between those two bounds.
 
 However, your function should have sensible defaults. The lower bound should default to `0`, and the upper bound should default to `1`.
 

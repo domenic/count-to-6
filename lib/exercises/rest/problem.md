@@ -15,7 +15,7 @@ function sum(...args) {
 sum(1, 2, 3); // 6
 ```
 
-Note that in the above example, `args` is a real array, with a `forEach` method and everything. Just like the spread operator helps us get rid of `.apply`, rest parameters help us get rid of `Array.prototype.slice.call(arguments)`. Yayyyy!
+Note that in the above example, `args` is a real array, with a `forEach` method and everything. Just like the spread operator helps us get rid of `.apply`, rest parameters help us get rid of `Array.prototype.slice.call(arguments)`. In fact, you should never need to use the horrible `arguments` objet again. Yayyyy!
 
 ---
 
