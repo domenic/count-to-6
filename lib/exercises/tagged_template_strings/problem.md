@@ -27,7 +27,7 @@ In fact, let's do that right now. You will be given two arguments to your progra
 For example, if the username is "domenic" and the comment is "<dl> is a fun tag", you should output
 
 ```html
-<b>domenic says:</b> "&lt;dl&gt; is a fun tag"
+<b>domenic says</b>: "&lt;dl&gt; is a fun tag"
 ```
 
 As before, you could start doing this using simple ES5 constructs. But the goal is for you to write a function that you can use as a tag in a tagged template string, that will do any escaping automatically.
