@@ -53,12 +53,13 @@ var replacedS = originalS.replace(/a/g, "b");
 The outline of your program should look something like this:
 
 ```js
-console.log(html`<b>${process.argv[2]} says</b>: "${process.argv[3]}"`);
-
 function html(/* what goes here? */) {
     // what goes here?
     // don't forget to return the escaped string!
 }
+
+console.log(html`<b>${process.argv[2]} says</b>: "${process.argv[3]}"`);
+
 ```
 
 If you're not sure where to start, maybe try `console.log`ing the arguments to your `html` function.
