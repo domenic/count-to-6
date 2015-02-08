@@ -22,4 +22,4 @@ Declaring the anonymous callback used as a parameter for `setImmediate()` would 
 
 Let's do exactly that. Starting with the code above, replace the anonymous function passed to `setImmediate()` with an arrow function.
 
-Hint: To pass no parameters to an arrow function, you can use `()`.
+Hint: To declare an arrow function that expects no parameters, you can use `()`.
