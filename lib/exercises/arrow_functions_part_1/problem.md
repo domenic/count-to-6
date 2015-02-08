@@ -1,4 +1,4 @@
-Arrow functions are one of the most fun new features of ES6. They have a few aspects which we will explore over the course of three exercises.
+Arrow functions are one of the most fun new features of ES6.
 
 In this exercise, we'll focus on one of the most common usage of arrow functions: shortening very simple functions. In ES6, you can write an arrow function like
 
