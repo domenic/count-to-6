@@ -7,26 +7,25 @@
     "nodeschool"
   ],
   "version": "0.6.0",
-  "author": "Domenic Denicola <domenic@domenicdenicola.com> (http://domenic.me/)",
+  "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
   "license": "WTFPL",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/domenic/count-to-6.git"
-  },
-  "bugs": "https://github.com/domenic/count-to-6/issues",
+  "repository": "domenic/count-to-6",
   "bin": "./lib/count-to-6.js",
   "preferGlobal": true,
   "scripts": {
     "lint": "jshint lib"
   },
+  "files": [
+    "lib/"
+  ],
   "dependencies": {
-    "workshopper": "^1.0.0-alpha07",
+    "workshopper": "^1.4.1",
     "workshopper-exercise": "^0.2.3",
-    "traceur": "0.0.41",
-    "q": "^1.0.1",
+    "traceur": "0.0.84",
+    "q": "^1.1.2",
     "rimraf": "^2.2.8"
   },
   "devDependencies": {
-    "jshint": "^2.5.1"
+    "jshint": "^2.6.0"
   }
 }
