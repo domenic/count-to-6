@@ -1,4 +1,4 @@
-Arrow functions help to make the confounding issue of `this` less counfounding.
+Arrow functions help to make the confounding issue of `this` less confounding.
 
 Arrow functions lexically bind the value of `this`. It is very likely that you do not know what that sentence means. And that's OK.
 
