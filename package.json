@@ -20,7 +20,7 @@
   ],
   "dependencies": {
     "workshopper": "^2.2.0",
-    "workshopper-exercise": "^0.2.3",
+    "workshopper-exercise": "^2.1.0",
     "traceur": "0.0.84",
     "q": "^1.1.2",
     "rimraf": "^2.2.8"
