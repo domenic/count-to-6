@@ -16,7 +16,7 @@ var foot = {
 foot.kick();
 ```
 
-When the call to `console.log()` occurs, a beginning JavaScript programmer might expect `this.yelp` to contain `"Ouch!"`. In fact, it is `undefined`, because the function we passed to `setImmediate` got its own `this` (which by default is the global object, which has no `yelp` property). In ES5, you might work around this with hacks like
+When the call to `console.log()` occurs, a beginner JavaScript programmer might expect `this.yelp` to contain `"Ouch!"`. In fact, it is `undefined`, because the function we passed to `setImmediate` got its own `this` (which by default is the global object, which has no `yelp` property). In ES5, you might work around this with hacks like
 
 ```js
 setImmediate(function () {
