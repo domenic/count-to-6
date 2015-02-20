@@ -15,7 +15,7 @@ Default argument values can even depend on earlier arguments:
 
 ```js
 function assertEquals5(val, error = `${val} does not equal 5!`) {
-    assert.strictEqual(val, error);
+    assert.strictEqual(val, 5, error);
 }
 
 assertEquals5(3); // "3 does not equal 5!"
