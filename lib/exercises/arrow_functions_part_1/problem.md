@@ -1,12 +1,12 @@
 Arrow functions are one of the most fun new features of ES6.
 
-In this exercise, we'll focus on one of the most common usage of arrow functions: shortening very simple functions. In ES6, you can write an arrow function like
+In this exercise, we'll focus on one of the most common usage of arrow functions: shortening very simple functions. In ES6, you can write an arrow function like:
 
 ```js
 x => x + 1
 ```
 
-and that means the same thing as the ES5 code
+and that means the same thing as the ES5 code:
 
 ```js
 function (x) { return x + 1; }
@@ -20,7 +20,7 @@ Note that if you need multiple arguments, you'll need to wrap them in parenthese
 (x, y) => x + y
 ```
 
----
+## Challenge
 
 You'll be given a variable number of arguments (`process.argv[2]` onward) to your program, all of which will be strings. Use arrow functions to perform a map-reduce operation over them, before outputting them to the console. That is, your solution should start with something like:
 

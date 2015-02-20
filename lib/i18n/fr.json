@@ -1,0 +1,25 @@
+{
+  "title": "COMPTEZ JUSQU’À LA VERSION 6 DE JAVASCRIPT",
+  "subtitle" : "\u001b[23mSélectionnez un exercice et tapez \u001b[3mEnter\u001b[23m pour démarrer",
+  "common": {
+    "exercise": {
+      "fail": {
+        "singleFunction": "{{{name}}}({{{args}}}) devrait valoir {{{expected}}} ; au lieu de quoi elle vaut {{{actual}}}"
+      },
+      "pass": {
+        "singleFunction": "{{{name}}}({{{args}}}) devrait valoir {{{expected}}}"
+      }
+    }
+  },
+  "exercise": {
+    "HELLO ES6": "BONJOUR ES6",
+    "TEMPLATE STRINGS": "TEMPLATE STRINGS",
+    "ARROW FUNCTIONS, Part 1": "FONCTIONS FLÉCHÉES, 1ère partie",
+    "ARROW FUNCTIONS AND THIS": "FONCTIONS FLÉCHÉES ET THIS",
+    "SPREAD": "DÉCOMPOSITION",
+    "REST": "REST",
+    "DEFAULT ARGUMENTS, Part 1": "ARGUMENTS PAR DÉFAUT, 1ère partie",
+    "DEFAULT ARGUMENTS, Part 2": "ARGUMENTS PAR DÉFAUT, 2e partie",
+    "TAGGED TEMPLATE STRINGS": "TAGGED TEMPLATE STRINGS"
+  }
+}
