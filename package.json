@@ -19,11 +19,11 @@
     "lib/"
   ],
   "dependencies": {
-    "workshopper": "^2.2.0",
-    "workshopper-exercise": "^2.1.0",
-    "traceur": "0.0.84",
     "q": "^1.1.2",
-    "rimraf": "^2.2.8"
+    "rimraf": "^2.2.8",
+    "traceur": "0.0.84",
+    "workshopper": "^2.3.1",
+    "workshopper-exercise": "^2.3.0"
   },
   "devDependencies": {
     "jshint": "^2.6.0"
