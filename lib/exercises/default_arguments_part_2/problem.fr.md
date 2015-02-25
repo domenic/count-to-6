@@ -26,10 +26,10 @@ assertEquals5(3); // "3 n’est pas égal à 5 !"
 ## Défi
 
 Pour cet exercice, écrivez un module Node dont l’export par défaut est une
-fonction qui va rendre une `String` très, très importante.  Pour ce faire, elle
-lui ajoutera un paquet de points d’exclamation sur la fin.  Le nombre exact de
+fonction qui va rendre une `String` très, très importante. Pour ce faire, elle
+lui ajoutera un paquet de points d’exclamation sur la fin. Le nombre exact de
 points d’exclamation doit être configurable, mais par défaut, il devrait être
-égal à la longueur de la chaîne.  Du coup :
+égal à la longueur de la chaîne. Du coup :
 
 ```js
 makeImportant("Hé", 5);              // => "Hé!!!!!"

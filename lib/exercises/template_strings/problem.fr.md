@@ -2,8 +2,8 @@ Les chaînes de caractères interpolables ES6 (à l’avenir, on dira comme
 en anglais, hein : « template strings », c’est quand même nettement plus
 court…) utilisent une nouvelle syntaxe de `String`, basée sur des
 **backticks** (**\`**) au lieu des apostrophes (`'`) ou guillemets (`"`)
-habituels.  Les template strings vous offrent des possibilités bien plus
-puissantes pour construire du texte.  Elles autorisent l’interpolation,
+habituels. Les template strings vous offrent des possibilités bien plus
+puissantes pour construire du texte. Elles autorisent l’interpolation,
 avec la syntaxe que voici :
 
 ```js
@@ -21,7 +21,7 @@ monde !`
 ## Défi
 
 Votre programme recevra un nom comme premier argument sur sa ligne de commande
-(`process.argv[2]`).  Vous devez afficher un message sur deux lignes, qui
+(`process.argv[2]`). Vous devez afficher un message sur deux lignes, qui
 commence par saluer cette personne, puis lui indique son nom en minuscules.
 Par exemple, si le nom est « Domenic », vous afficheriez :
 

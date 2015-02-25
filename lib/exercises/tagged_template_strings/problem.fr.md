@@ -1,13 +1,13 @@
 En plus des possibilités déjà évoquées, les template strings peuvent être
-**tagged**.  On fait ça en préfixant un nom de fonction, par exemple `fn`,
-juste devant le littéral.  Par exemple :
+**tagged**. On fait ça en préfixant un nom de fonction, par exemple `fn`,
+juste devant le littéral. Par exemple :
 
 ```js
 fn`Bonjour ${you} ! Tu as l’air ${adjective} aujourd’hui !`
 ```
 
 La sémantique d’une **tagged template string** est très différente de celle
-d’une template string classique.  Fondamentalement, c’est un type spécial
+d’une template string classique. Fondamentalement, c’est un type spécial
 d’appel de fonction ; le code ci-dessus est en fait du « sucre syntaxique »
 pour le code suivant :
 
@@ -22,11 +22,11 @@ substitutions ; dans l’exemple ci-dessus, on a 3 chaînes pour 2 substitution
 
 Cette fonctionnalité peut s’avérer utile dans tout un tas de cas, mais celui
 qui vient immédiatement à l’esprit est l’échappement automatique des variables
-interpolées.  Par exemple, vous pourriez écrire une fonction d’échappement HTML,
+interpolées. Par exemple, vous pourriez écrire une fonction d’échappement HTML,
 la nommer `html()`, et vous pourriez alors faire :
 
 This can be useful for all sorts of things, but one of the most straightforward
-is automatic escaping of any interpolated variables.  For example, you could
+is automatic escaping of any interpolated variables. For example, you could
 write an HTML-escaping function, and name it `html`, such that:
 
 ```js
@@ -39,10 +39,10 @@ appropriées.
 
 ## Défi
 
-Eh bien, faisons ça, justement.  Votre programme recevra deux arguments en
-ligne de commande : un nom d’utilisateur, et un commentaire.  Les eux risquent
+Eh bien, faisons ça, justement. Votre programme recevra deux arguments en
+ligne de commande : un nom d’utilisateur, et un commentaire. Les eux risquent
 de contenir des caractères dangereux pour HTML (à savoir `'`, `"`, `<`, `>`
-et `&`).  Votre travail consiste à utiliser les tagged template strings pour
+et `&`). Votre travail consiste à utiliser les tagged template strings pour
 afficher une construction HTML du commentaire qui soit sécurisée pour les
 parties dynamiques (interpolées).
 

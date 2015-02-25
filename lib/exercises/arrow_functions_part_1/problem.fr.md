@@ -2,7 +2,7 @@ Les **fonctions fléchées** (fonctions utilisant la nouvelle syntaxe avec `=>`)
 sont une des nouvelles fonctionalités d’ES6 les plus sympa.
 
 Dans cet exercice, on va se concentrer sur leur utilisation la plus courante :
-réduire le code de fonctions simples.  En ES6, on écrit une fonction fléchée
+réduire le code de fonctions simples. En ES6, on écrit une fonction fléchée
 comme ceci :
 
 ```js
@@ -15,8 +15,8 @@ x => x + 1
 function (x) { return x + 1; }
 ```
 
-Plutôt sympa, n’est-ce pas ?  Vous pouvez mettre n’importe quelle expression
-sur la droite du `=>`, et ça deviendra votre valeur de retour.  C’est
+Plutôt sympa, n’est-ce pas ? Vous pouvez mettre n’importe quelle expression
+sur la droite du `=>`, et ça deviendra votre valeur de retour. C’est
 particulièrement utile lorsqu’on fait des opérations au travers d’itérateurs
 tels que `map` ou `filter` sur des collections.
 
@@ -31,7 +31,7 @@ enrober entre des parenthèses, comme ceci :
 
 Votre programme recevra sur la ligne de commande un nombre variable d’arguments
 (à partir de `process.argv[2]` et au-delà), qui seront tous à traiter comme des
-`String`s.  Utilisez les fonctions fléchées pour effectuer une opération de
+`String`s. Utilisez les fonctions fléchées pour effectuer une opération de
 map-reduce sur ces données, avant d’afficher le résultat en console.
 
 En gros, votre solution devrait ressembler à ça :
