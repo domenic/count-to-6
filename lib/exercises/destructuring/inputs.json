@@ -1,0 +1,5 @@
+[
+    [1, "jdoe", "john@doe.com"],
+    [2, "fbar", "foo@bar.com", 23],
+    [null, "fbaz", "foo@baz.com",null]
+]
