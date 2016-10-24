@@ -10,7 +10,17 @@ console.log(bar); // 2
 
 In the above example, the value of first cell of `numbers` is being assigned to a variable `foo` and the value of the second cell to a variable `bar`. 
 
-It is possible to omit any value in destructuring arrays:
+A slightly different syntax is needed in order to assign cell values to object properties, instead of variables:
+
+```js
+let numbers = [1, 2, 3];
+let data = {};
+[data.foo, data.bar] = numbers;
+
+console.log(data); // { foo: 1, bar: 2 }
+```
+
+When destructuring arrays, it is possible to omit any value:
 
 ```js
 let numbers = [1, 2, 3];
@@ -20,7 +30,7 @@ console.log(foo); // 1
 console.log(baz); // 3
 ```
 
-Destructuring can be used also in objects:
+Objects can also be destructured:
 
 ```js
 let box = {width: 10, height: 5; depth: 4};
