@@ -6,7 +6,7 @@
     "workshopper",
     "nodeschool"
   ],
-  "version": "0.8.0",
+  "version": "0.8.1",
   "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
   "license": "WTFPL",
   "repository": "domenic/count-to-6",
