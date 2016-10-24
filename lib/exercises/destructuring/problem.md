@@ -33,8 +33,8 @@ console.log(baz); // 3
 Objects can also be destructured:
 
 ```js
-let box = {width: 10, height: 5; depth: 4};
-let {width:x, depth} = box;
+let box = {width: 10, height: 5, depth: 4};
+let {width: x, depth} = box;
 
 console.log(x, depth); // 10 4
 //but
