@@ -8,7 +8,7 @@ console.log(foo); // 1
 console.log(bar); // 2
 ```
 
-In the above example, the value of first cell of `numbers` is being assigned to a variable `foo` and the value of the second cell to a variable `bar`. 
+In the above example, the value of the first cell of `numbers` is being assigned to a variable `foo` and the value of the second cell to a variable `bar`. 
 
 A slightly different syntax is needed in order to assign cell values to object properties, instead of variables:
 
