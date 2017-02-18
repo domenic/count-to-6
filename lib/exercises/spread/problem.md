@@ -1,4 +1,4 @@
-ES6 provides two closely related concepts, **rest** and **spread**, for functions with variadic numbers of arguments. In this exercise we'll explore the **spread** side of things.
+ES6 provides two closely related concepts, **rest** and **spread**, for variadic functions with a variable number of arguments. In this exercise we'll explore the **spread** side of things.
 
 An example of a variadic function would be `Math.max`, which you can call with any number of arguments: `Math.max(1, 2)` or `Math.max(1, 2, 3)` or ...
 
