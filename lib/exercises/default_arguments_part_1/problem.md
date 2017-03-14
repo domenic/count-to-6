@@ -21,7 +21,7 @@ sayHello("Hiya", undefined);    // "Hiya CampJS!"
 sayHello(undefined, "JSConf");  // "Hello JSConf!"
 ```
 
-Note that other values will *not* trigger the defaulting, even falsy values like `null`, `false`, `""`, or `0`:
+Note that other values will *not* trigger the defaulting, even false values like `null`, `false`, `""`, or `0`:
 
 ```js
 sayHello(null, 0); // "null 0!"
