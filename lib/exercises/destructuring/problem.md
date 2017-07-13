@@ -43,7 +43,7 @@ console.log(width); // ReferenceError: width is not defined
 
 ## Challenge
 
-Let's assume that we need to extract certain pieces of information concerining a user from an input array, which has the following format:
+Let's assume that we need to extract certain pieces of information concerning a user from an input array, which has the following format:
 
 ```js
 [userId, username, email, age, firstName, lastName]
